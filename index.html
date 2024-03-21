@@ -1,13 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website - ATZ Technotube</title>
-    <link rel="stylesheet" href="css/custom_style.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+
+    <title>Personal Portfolio Website - ATZ Technotube</title>
+  </head>
+  <body>
+    <!-- Heder Navbar -->
     <div id="header">
         <div class="container">
             <nav>
@@ -23,14 +29,14 @@
                 </ul>
                 <i class="fa fa-bars" onclick="openmenu()"></i>  
             </nav>
-
+    
             <div class="header-text">
                 <p>Web Developer</p>
                 <h1>Hi, I'm <span>Ram Kumar</span><br>Bhuyan From Assam</h1>
             </div>
         </div>
     </div>
-<!-- About -->
+    <!-- About -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -79,120 +85,133 @@
             </div>
         </div>
     </div>
-<!-- Services -->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa fa-code"></i>
-                <h2>Web Design</h2>
-                <p> </p>
-                <a href="#">Learn More</a>
-            </div>
-            <div>
-                <i class="fa fa-laptop"></i>
-                <h2>UI/UX Design</h2>
-                <p> </p>
-                <a href="#">Learn More</a>
-            </div>
-            <div>
-                <i class="fa fa-apple"></i>
-                <h2>App Design</h2>
-                <p> </p>
-                <a href="#">Learn More</a>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa fa-laptop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa fa-apple"></i>
+                    <h2>App Design</h2>
+                    <p> </p>
+                    <a href="#">Learn More</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Portfolio -->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/portfolio.jpg">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p> </p>
-                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p> </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p> </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p> </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="work">
-                <img src="images/portfolio1.jpg">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p> </p>
-                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-paper-plane"></i>test@gmail.com</p>
+                    <p><i class="fa fa-phone"></i>+123456666</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.whatsapp.com"><i class="fa fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <a href="pdf/my-cv.pdf" download class="btn btn2">Download CV</a>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/portfolio.jpg">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p> </p>
-                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See More</a>
-    </div>
-</div>
-
-<!-- Contact -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa fa-paper-plane"></i>atztechnotube@gmail.com</p>
-                <p><i class="fa fa-phone"></i>+91 7002496834</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.whatsapp.com"><i class="fa fa-whatsapp"></i></a>
-                    <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
-                </div>
-                <a href="pdf/my-cv.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form>
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+        <div class="copyright">
+            <p>Copyright &#169; 2024 | ATZ Technotube <i class="fa fa-heart"></i> My Portfolio</p>
         </div>
     </div>
-    <div class="copyright">
-        <p>Copyright &#169; 2024 | ATZ Technotube <i class="fa fa-heart"></i> My Portfolio</p>
-    </div>
-</div>
-
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
         }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
-<script>
-    var sidemenu = document.getElementById("sidemenu");
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
-    function closemenu(){
-        sidemenu.style.right = "-200px";
-    }
-</script>
-</body>
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxhT6RZDzskrhYHQv8VtxwcvSPlWPsZ4K5jjUGRlsYbz536Lav3P7jI2gSanczBw1-KUg/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <!-- Optional JavaScript -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
